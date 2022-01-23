@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorIcon" format="reference" />
+    <attr name="colorSeparator" format="reference" />
+    <attr name="colorOnRipple" format="reference" />
+    <attr name="colorBackgroundTransparent" format="reference" />
+</resources>

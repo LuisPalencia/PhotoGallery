@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PhotoGallery</string>
+
+
+    <string name="check_permissions">Check permissions</string>
+    <string name="no_permissions_error">In order to use the gallery, you must accept the permissions in order to read the storage</string>
+    <string name="camera_permission_not_enabled_error">You must accept the camera permissions in order to use the camera in this app</string>
+    <string name="open_permissions_settings">You need to enable the needed permissions for the app in the settings app</string>
+    <string name="error_camera">An error ocurred when trying to take a picture from the camera</string>
+
+    <string name="info">Info</string>
+    <string name="delete">Delete</string>
+
+    <string name="photographic_information">Photographic information</string>
+    <string name="file_name">File name</string>
+    <string name="date">Date</string>
+    <string name="size">Size</string>
+    <string name="ok">Ok</string>
+
+    <string name="image_removed">Image removed from the system</string>
+    <string name="error_image_removed">An error ocurred when trying to remove the image</string>
+    <string name="error_image_showed">An error ocurred when trying to show the image</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
