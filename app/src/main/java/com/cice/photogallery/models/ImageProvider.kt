@@ -17,7 +17,7 @@ class ImageProvider {
         //Method that gets all the images from the device
         fun getImagesFromStorage(context: Context): MutableList<Image>{
             //Create list
-            var imagesStorage = Storage.imagesStorage
+            var imagesStorage = mutableListOf<Image>()
 
             // Get all the images from the storage
             //imagesStorage += getImagesFromUri(MediaStore.Images.Media.INTERNAL_CONTENT_URI, context)
@@ -27,6 +27,9 @@ class ImageProvider {
             imagesStorage.sortBy {
                 it.dateTaken
             }
+
+            // Assign the list of images to the Storage
+            Storage.imagesStorage = imagesStorage
 
             return imagesStorage
         }
